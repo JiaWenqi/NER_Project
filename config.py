@@ -7,7 +7,7 @@ tf.app.flags.DEFINE_string("tgt_file", 'resource/target.txt', "labels.")
 tf.app.flags.DEFINE_string("pred_file", 'resource/predict.txt', "test data.")
 tf.app.flags.DEFINE_string("src_vocab_file", 'resource/source_vocab.txt', "source vocabulary.")
 tf.app.flags.DEFINE_string("tgt_vocab_file", 'resource/target_vocab.txt', "targets.")
-tf.app.flags.DEFINE_string("word_embedding_file", 'F:/Simhash/simhash-master/simhash-master/zhwiki_2017_03.sg_50d.word2vec', "extra word embeddings.")
+tf.app.flags.DEFINE_string("word_embedding_file", './zhwiki_2017_03.sg_50d.word2vec', "extra word embeddings.")
 tf.app.flags.DEFINE_string("model_path", 'resource/model/', "model save path")
 # 这里默认词向量的维度是300, 如果自行训练的词向量维度不是300,则需要该这里的值。
 tf.app.flags.DEFINE_integer("embeddings_size", 50, "Size of word embedding.")

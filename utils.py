@@ -30,27 +30,29 @@ class BatchedInput(collections.namedtuple("BatchedInput",
 
 def build_word_index():
     '''
-        生成单词列表，并存入文件之中。
-    :return:
+    return: 从词向量文件中取出单词并生成词列表，并存入文件之中。
     '''
     print ('building word index...')
     if not os.path.exists(src_vocab_file):
-        with open(src_vocab_file, 'w') as source:
-            f = open(word_embedding_file)
+        with open(src_vocab_file, 'w', encoding='utf-8') as source:
+            f = open(word_embedding_file, 'r', encoding='utf-8')
             for line in f:
                 values = line.split()
                 word = values[0]  # 取词
+                '''
                 if type(word) is unicode:
                     word = word.encode('utf8')
+                '''
                 source.write(word + '\n')
         f.close()
     else:
         print ('source vocabulary file has already existed, continue to next stage.')
-
+    '''       
+    return:生成实体类别词列表，并存入文件之中。
+    '''
     if not os.path.exists(tgt_vocab_file):
-        with open(tgt_file, 'r') as source:
+        with open(tgt_file, 'r', encoding='utf-8') as source:
             dict_word = {}
-            # with open('source_vocab', 'w') as s_vocab:
             for line in source.readlines():
                 line = line.strip()
                 if line != '':
@@ -63,18 +65,20 @@ def build_word_index():
                 for word, frequence in top_words:
                     s_vocab.write(word + '\n')
     else:
-        print ('target vocabulary file has already existed, continue to next stage.')
-
+        print('target vocabulary file has already existed, continue to next stage.')
+    '''       
+    return:生成模型文件夹
+    '''
     if not os.path.exists(model_path):
         os.makedirs(model_path)
 
 
 def get_src_vocab_size():
     '''
-    :return: 训练数据中共有多少不重复的词。
+    :return: 计算词向量文件一共有多少个词
     '''
     size = 0
-    with open(src_vocab_file, 'r',encoding='utf-8') as vocab_file:
+    with open(src_vocab_file, 'r', encoding='utf-8') as vocab_file:
         for content in vocab_file.readlines():
             content = content.strip()
             if content != '':
@@ -99,14 +103,14 @@ def get_class_size():
 
 
 def create_vocab_tables(src_vocab_file, tgt_vocab_file, src_unknown_id, tgt_unknown_id, share_vocab=False):
-  src_vocab_table = lookup_ops.index_table_from_file(
+    src_vocab_table = lookup_ops.index_table_from_file(
       src_vocab_file, default_value=src_unknown_id)
-  if share_vocab:
-    tgt_vocab_table = src_vocab_table
-  else:
-    tgt_vocab_table = lookup_ops.index_table_from_file(
-        tgt_vocab_file, default_value=tgt_unknown_id)
-  return src_vocab_table, tgt_vocab_table
+    if share_vocab:
+        tgt_vocab_table = src_vocab_table
+    else:
+        tgt_vocab_table = lookup_ops.index_table_from_file(
+            tgt_vocab_file, default_value=tgt_unknown_id)
+    return src_vocab_table, tgt_vocab_table
 
 
 def get_iterator(src_vocab_table, tgt_vocab_table, vocab_size, batch_size, buffer_size=None, random_seed=None,
@@ -245,7 +249,7 @@ def load_word2vec_embedding(vocab_size):
     rng = np.random.RandomState(23455)
     unknown = np.asarray(rng.normal(size=(embeddings_size)))
     padding = np.asarray(rng.normal(size=(embeddings_size)))
-    f = open(word_embedding_file,encoding='utf-8')
+    f = open(word_embedding_file,'r', encoding='utf-8')
     for index, line in enumerate(f):
         values = line.split()
         try:
