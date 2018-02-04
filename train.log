@@ -1,0 +1,1776 @@
+D:\Anaconda3\python.exe F:/命名实体识别/NER-master/NER-master/rnn.py
+building word index...
+source vocabulary file has already existed, continue to next stage.
+target vocabulary file has already existed, continue to next stage.
+loading word embedding, it will take few minutes...
+D:\Anaconda3\lib\site-packages\tensorflow\python\ops\gradients_impl.py:93: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-02-04 18:39:08.445445: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-02-04 18:39:08.446445: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-02-04 18:39:08.446445: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-02-04 18:39:08.446445: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-02-04 18:39:08.446445: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-02-04 18:39:08.446445: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+****************************************************************************************************
+0 loss 117.841
+****************************************************************************************************
+35  iterator.next() cannot get enough data to a batch, initialize it.
+70  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+100 loss 13.0125
+****************************************************************************************************
+105  iterator.next() cannot get enough data to a batch, initialize it.
+140  iterator.next() cannot get enough data to a batch, initialize it.
+175  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+200 loss 26.5772
+****************************************************************************************************
+210  iterator.next() cannot get enough data to a batch, initialize it.
+245  iterator.next() cannot get enough data to a batch, initialize it.
+280  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+300 loss 13.9997
+****************************************************************************************************
+315  iterator.next() cannot get enough data to a batch, initialize it.
+350  iterator.next() cannot get enough data to a batch, initialize it.
+385  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+400 loss 18.8294
+****************************************************************************************************
+420  iterator.next() cannot get enough data to a batch, initialize it.
+455  iterator.next() cannot get enough data to a batch, initialize it.
+490  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+500 loss 9.05903
+****************************************************************************************************
+525  iterator.next() cannot get enough data to a batch, initialize it.
+560  iterator.next() cannot get enough data to a batch, initialize it.
+595  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+600 loss 4.36003
+****************************************************************************************************
+630  iterator.next() cannot get enough data to a batch, initialize it.
+665  iterator.next() cannot get enough data to a batch, initialize it.
+700  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+700 loss 7.98187
+****************************************************************************************************
+735  iterator.next() cannot get enough data to a batch, initialize it.
+770  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+800 loss 3.6427
+****************************************************************************************************
+805  iterator.next() cannot get enough data to a batch, initialize it.
+840  iterator.next() cannot get enough data to a batch, initialize it.
+875  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+900 loss 3.46282
+****************************************************************************************************
+910  iterator.next() cannot get enough data to a batch, initialize it.
+945  iterator.next() cannot get enough data to a batch, initialize it.
+980  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+1000 loss 6.11258
+****************************************************************************************************
+1015  iterator.next() cannot get enough data to a batch, initialize it.
+1050  iterator.next() cannot get enough data to a batch, initialize it.
+1085  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+1100 loss 11.8352
+****************************************************************************************************
+1120  iterator.next() cannot get enough data to a batch, initialize it.
+1155  iterator.next() cannot get enough data to a batch, initialize it.
+1190  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+1200 loss 7.01198
+****************************************************************************************************
+1225  iterator.next() cannot get enough data to a batch, initialize it.
+1260  iterator.next() cannot get enough data to a batch, initialize it.
+1295  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+1300 loss 2.71614
+****************************************************************************************************
+1330  iterator.next() cannot get enough data to a batch, initialize it.
+1365  iterator.next() cannot get enough data to a batch, initialize it.
+1400  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+1400 loss 6.13833
+****************************************************************************************************
+1435  iterator.next() cannot get enough data to a batch, initialize it.
+1470  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+1500 loss 2.07604
+****************************************************************************************************
+1505  iterator.next() cannot get enough data to a batch, initialize it.
+1540  iterator.next() cannot get enough data to a batch, initialize it.
+1575  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+1600 loss 2.31611
+****************************************************************************************************
+1610  iterator.next() cannot get enough data to a batch, initialize it.
+1645  iterator.next() cannot get enough data to a batch, initialize it.
+1680  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+1700 loss 5.38541
+****************************************************************************************************
+1715  iterator.next() cannot get enough data to a batch, initialize it.
+1750  iterator.next() cannot get enough data to a batch, initialize it.
+1785  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+1800 loss 9.07029
+****************************************************************************************************
+1820  iterator.next() cannot get enough data to a batch, initialize it.
+1855  iterator.next() cannot get enough data to a batch, initialize it.
+1890  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+1900 loss 5.11901
+****************************************************************************************************
+1925  iterator.next() cannot get enough data to a batch, initialize it.
+1960  iterator.next() cannot get enough data to a batch, initialize it.
+1995  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+2000 loss 2.79608
+****************************************************************************************************
+2030  iterator.next() cannot get enough data to a batch, initialize it.
+2065  iterator.next() cannot get enough data to a batch, initialize it.
+2100  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+2100 loss 5.9431
+****************************************************************************************************
+2135  iterator.next() cannot get enough data to a batch, initialize it.
+2170  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+2200 loss 1.6441
+****************************************************************************************************
+2205  iterator.next() cannot get enough data to a batch, initialize it.
+2240  iterator.next() cannot get enough data to a batch, initialize it.
+2275  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+2300 loss 2.0993
+****************************************************************************************************
+2310  iterator.next() cannot get enough data to a batch, initialize it.
+2345  iterator.next() cannot get enough data to a batch, initialize it.
+2380  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+2400 loss 3.96723
+****************************************************************************************************
+2415  iterator.next() cannot get enough data to a batch, initialize it.
+2450  iterator.next() cannot get enough data to a batch, initialize it.
+2485  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+2500 loss 7.83494
+****************************************************************************************************
+2520  iterator.next() cannot get enough data to a batch, initialize it.
+2555  iterator.next() cannot get enough data to a batch, initialize it.
+2590  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+2600 loss 5.08474
+****************************************************************************************************
+2625  iterator.next() cannot get enough data to a batch, initialize it.
+2660  iterator.next() cannot get enough data to a batch, initialize it.
+2695  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+2700 loss 2.4659
+****************************************************************************************************
+2730  iterator.next() cannot get enough data to a batch, initialize it.
+2765  iterator.next() cannot get enough data to a batch, initialize it.
+2800  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+2800 loss 4.41524
+****************************************************************************************************
+2835  iterator.next() cannot get enough data to a batch, initialize it.
+2870  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+2900 loss 1.44146
+****************************************************************************************************
+2905  iterator.next() cannot get enough data to a batch, initialize it.
+2940  iterator.next() cannot get enough data to a batch, initialize it.
+2975  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+3000 loss 1.92339
+****************************************************************************************************
+3010  iterator.next() cannot get enough data to a batch, initialize it.
+3045  iterator.next() cannot get enough data to a batch, initialize it.
+3080  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+3100 loss 4.55947
+****************************************************************************************************
+3115  iterator.next() cannot get enough data to a batch, initialize it.
+3150  iterator.next() cannot get enough data to a batch, initialize it.
+3185  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+3200 loss 3.69211
+****************************************************************************************************
+3220  iterator.next() cannot get enough data to a batch, initialize it.
+3255  iterator.next() cannot get enough data to a batch, initialize it.
+3290  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+3300 loss 2.70033
+****************************************************************************************************
+3325  iterator.next() cannot get enough data to a batch, initialize it.
+3360  iterator.next() cannot get enough data to a batch, initialize it.
+3395  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+3400 loss 2.19194
+****************************************************************************************************
+3430  iterator.next() cannot get enough data to a batch, initialize it.
+3465  iterator.next() cannot get enough data to a batch, initialize it.
+3500  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+3500 loss 3.94871
+****************************************************************************************************
+3535  iterator.next() cannot get enough data to a batch, initialize it.
+3570  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+3600 loss 0.978084
+****************************************************************************************************
+3605  iterator.next() cannot get enough data to a batch, initialize it.
+3640  iterator.next() cannot get enough data to a batch, initialize it.
+3675  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+3700 loss 1.30562
+****************************************************************************************************
+3710  iterator.next() cannot get enough data to a batch, initialize it.
+3745  iterator.next() cannot get enough data to a batch, initialize it.
+3780  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+3800 loss 4.02183
+****************************************************************************************************
+3815  iterator.next() cannot get enough data to a batch, initialize it.
+3850  iterator.next() cannot get enough data to a batch, initialize it.
+3885  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+3900 loss 5.65227
+****************************************************************************************************
+3920  iterator.next() cannot get enough data to a batch, initialize it.
+3955  iterator.next() cannot get enough data to a batch, initialize it.
+3990  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+4000 loss 3.35418
+****************************************************************************************************
+4025  iterator.next() cannot get enough data to a batch, initialize it.
+4060  iterator.next() cannot get enough data to a batch, initialize it.
+4095  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+4100 loss 1.86421
+****************************************************************************************************
+4130  iterator.next() cannot get enough data to a batch, initialize it.
+4165  iterator.next() cannot get enough data to a batch, initialize it.
+4200  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+4200 loss 3.74033
+****************************************************************************************************
+4235  iterator.next() cannot get enough data to a batch, initialize it.
+4270  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+4300 loss 1.1848
+****************************************************************************************************
+4305  iterator.next() cannot get enough data to a batch, initialize it.
+4340  iterator.next() cannot get enough data to a batch, initialize it.
+4375  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+4400 loss 6.43448
+****************************************************************************************************
+4410  iterator.next() cannot get enough data to a batch, initialize it.
+4445  iterator.next() cannot get enough data to a batch, initialize it.
+4480  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+4500 loss 3.83516
+****************************************************************************************************
+4515  iterator.next() cannot get enough data to a batch, initialize it.
+4550  iterator.next() cannot get enough data to a batch, initialize it.
+4585  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+4600 loss 1.5111
+****************************************************************************************************
+4620  iterator.next() cannot get enough data to a batch, initialize it.
+4655  iterator.next() cannot get enough data to a batch, initialize it.
+4690  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+4700 loss 3.32588
+****************************************************************************************************
+4725  iterator.next() cannot get enough data to a batch, initialize it.
+4760  iterator.next() cannot get enough data to a batch, initialize it.
+4795  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+4800 loss 1.25129
+****************************************************************************************************
+4830  iterator.next() cannot get enough data to a batch, initialize it.
+4865  iterator.next() cannot get enough data to a batch, initialize it.
+4900  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+4900 loss 3.65841
+****************************************************************************************************
+4935  iterator.next() cannot get enough data to a batch, initialize it.
+4970  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+5000 loss 0.71858
+****************************************************************************************************
+5005  iterator.next() cannot get enough data to a batch, initialize it.
+5040  iterator.next() cannot get enough data to a batch, initialize it.
+5075  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+5100 loss 1.10794
+****************************************************************************************************
+5110  iterator.next() cannot get enough data to a batch, initialize it.
+5145  iterator.next() cannot get enough data to a batch, initialize it.
+5180  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+5200 loss 3.29425
+****************************************************************************************************
+5215  iterator.next() cannot get enough data to a batch, initialize it.
+5250  iterator.next() cannot get enough data to a batch, initialize it.
+5285  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+5300 loss 5.15793
+****************************************************************************************************
+5320  iterator.next() cannot get enough data to a batch, initialize it.
+5355  iterator.next() cannot get enough data to a batch, initialize it.
+5390  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+5400 loss 2.70222
+****************************************************************************************************
+5425  iterator.next() cannot get enough data to a batch, initialize it.
+5460  iterator.next() cannot get enough data to a batch, initialize it.
+5495  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+5500 loss 1.95663
+****************************************************************************************************
+5530  iterator.next() cannot get enough data to a batch, initialize it.
+5565  iterator.next() cannot get enough data to a batch, initialize it.
+5600  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+5600 loss 2.98813
+****************************************************************************************************
+5635  iterator.next() cannot get enough data to a batch, initialize it.
+5670  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+5700 loss 0.769411
+****************************************************************************************************
+5705  iterator.next() cannot get enough data to a batch, initialize it.
+5740  iterator.next() cannot get enough data to a batch, initialize it.
+5775  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+5800 loss 0.933605
+****************************************************************************************************
+5810  iterator.next() cannot get enough data to a batch, initialize it.
+5845  iterator.next() cannot get enough data to a batch, initialize it.
+5880  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+5900 loss 2.75943
+****************************************************************************************************
+5915  iterator.next() cannot get enough data to a batch, initialize it.
+5950  iterator.next() cannot get enough data to a batch, initialize it.
+5985  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+6000 loss 4.23618
+****************************************************************************************************
+6020  iterator.next() cannot get enough data to a batch, initialize it.
+6055  iterator.next() cannot get enough data to a batch, initialize it.
+6090  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+6100 loss 2.24932
+****************************************************************************************************
+6125  iterator.next() cannot get enough data to a batch, initialize it.
+6160  iterator.next() cannot get enough data to a batch, initialize it.
+6195  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+6200 loss 1.42458
+****************************************************************************************************
+6230  iterator.next() cannot get enough data to a batch, initialize it.
+6265  iterator.next() cannot get enough data to a batch, initialize it.
+6300  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+6300 loss 2.6196
+****************************************************************************************************
+6335  iterator.next() cannot get enough data to a batch, initialize it.
+6370  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+6400 loss 2.63737
+****************************************************************************************************
+6405  iterator.next() cannot get enough data to a batch, initialize it.
+6440  iterator.next() cannot get enough data to a batch, initialize it.
+6475  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+6500 loss 0.97709
+****************************************************************************************************
+6510  iterator.next() cannot get enough data to a batch, initialize it.
+6545  iterator.next() cannot get enough data to a batch, initialize it.
+6580  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+6600 loss 1.47447
+****************************************************************************************************
+6615  iterator.next() cannot get enough data to a batch, initialize it.
+6650  iterator.next() cannot get enough data to a batch, initialize it.
+6685  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+6700 loss 3.99747
+****************************************************************************************************
+6720  iterator.next() cannot get enough data to a batch, initialize it.
+6755  iterator.next() cannot get enough data to a batch, initialize it.
+6790  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+6800 loss 2.37488
+****************************************************************************************************
+6825  iterator.next() cannot get enough data to a batch, initialize it.
+6860  iterator.next() cannot get enough data to a batch, initialize it.
+6895  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+6900 loss 1.53681
+****************************************************************************************************
+6930  iterator.next() cannot get enough data to a batch, initialize it.
+6965  iterator.next() cannot get enough data to a batch, initialize it.
+7000  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+7000 loss 1.97281
+****************************************************************************************************
+7035  iterator.next() cannot get enough data to a batch, initialize it.
+7070  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+7100 loss 0.705031
+****************************************************************************************************
+7105  iterator.next() cannot get enough data to a batch, initialize it.
+7140  iterator.next() cannot get enough data to a batch, initialize it.
+7175  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+7200 loss 0.917148
+****************************************************************************************************
+7210  iterator.next() cannot get enough data to a batch, initialize it.
+7245  iterator.next() cannot get enough data to a batch, initialize it.
+7280  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+7300 loss 1.00049
+****************************************************************************************************
+7315  iterator.next() cannot get enough data to a batch, initialize it.
+7350  iterator.next() cannot get enough data to a batch, initialize it.
+7385  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+7400 loss 3.06185
+****************************************************************************************************
+7420  iterator.next() cannot get enough data to a batch, initialize it.
+7455  iterator.next() cannot get enough data to a batch, initialize it.
+7490  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+7500 loss 2.19488
+****************************************************************************************************
+7525  iterator.next() cannot get enough data to a batch, initialize it.
+7560  iterator.next() cannot get enough data to a batch, initialize it.
+7595  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+7600 loss 1.09786
+****************************************************************************************************
+7630  iterator.next() cannot get enough data to a batch, initialize it.
+7665  iterator.next() cannot get enough data to a batch, initialize it.
+7700  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+7700 loss 2.18372
+****************************************************************************************************
+7735  iterator.next() cannot get enough data to a batch, initialize it.
+7770  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+7800 loss 0.672398
+****************************************************************************************************
+7805  iterator.next() cannot get enough data to a batch, initialize it.
+7840  iterator.next() cannot get enough data to a batch, initialize it.
+7875  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+7900 loss 0.85858
+****************************************************************************************************
+7910  iterator.next() cannot get enough data to a batch, initialize it.
+7945  iterator.next() cannot get enough data to a batch, initialize it.
+7980  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+8000 loss 1.98952
+****************************************************************************************************
+8015  iterator.next() cannot get enough data to a batch, initialize it.
+8050  iterator.next() cannot get enough data to a batch, initialize it.
+8085  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+8100 loss 3.2565
+****************************************************************************************************
+8120  iterator.next() cannot get enough data to a batch, initialize it.
+8155  iterator.next() cannot get enough data to a batch, initialize it.
+8190  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+8200 loss 2.00057
+****************************************************************************************************
+8225  iterator.next() cannot get enough data to a batch, initialize it.
+8260  iterator.next() cannot get enough data to a batch, initialize it.
+8295  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+8300 loss 1.44366
+****************************************************************************************************
+8330  iterator.next() cannot get enough data to a batch, initialize it.
+8365  iterator.next() cannot get enough data to a batch, initialize it.
+8400  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+8400 loss 1.87097
+****************************************************************************************************
+8435  iterator.next() cannot get enough data to a batch, initialize it.
+8470  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+8500 loss 0.77971
+****************************************************************************************************
+8505  iterator.next() cannot get enough data to a batch, initialize it.
+8540  iterator.next() cannot get enough data to a batch, initialize it.
+8575  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+8600 loss 0.697038
+****************************************************************************************************
+8610  iterator.next() cannot get enough data to a batch, initialize it.
+8645  iterator.next() cannot get enough data to a batch, initialize it.
+8680  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+8700 loss 1.94893
+****************************************************************************************************
+8715  iterator.next() cannot get enough data to a batch, initialize it.
+8750  iterator.next() cannot get enough data to a batch, initialize it.
+8785  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+8800 loss 2.4865
+****************************************************************************************************
+8820  iterator.next() cannot get enough data to a batch, initialize it.
+8855  iterator.next() cannot get enough data to a batch, initialize it.
+8890  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+8900 loss 1.79999
+****************************************************************************************************
+8925  iterator.next() cannot get enough data to a batch, initialize it.
+8960  iterator.next() cannot get enough data to a batch, initialize it.
+8995  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+9000 loss 1.1351
+****************************************************************************************************
+9030  iterator.next() cannot get enough data to a batch, initialize it.
+9065  iterator.next() cannot get enough data to a batch, initialize it.
+9100  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+9100 loss 1.73188
+****************************************************************************************************
+9135  iterator.next() cannot get enough data to a batch, initialize it.
+9170  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+9200 loss 0.459396
+****************************************************************************************************
+9205  iterator.next() cannot get enough data to a batch, initialize it.
+9240  iterator.next() cannot get enough data to a batch, initialize it.
+9275  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+9300 loss 0.581105
+****************************************************************************************************
+9310  iterator.next() cannot get enough data to a batch, initialize it.
+9345  iterator.next() cannot get enough data to a batch, initialize it.
+9380  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+9400 loss 1.76667
+****************************************************************************************************
+9415  iterator.next() cannot get enough data to a batch, initialize it.
+9450  iterator.next() cannot get enough data to a batch, initialize it.
+9485  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+9500 loss 3.04826
+****************************************************************************************************
+9520  iterator.next() cannot get enough data to a batch, initialize it.
+9555  iterator.next() cannot get enough data to a batch, initialize it.
+9590  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+9600 loss 1.66429
+****************************************************************************************************
+9625  iterator.next() cannot get enough data to a batch, initialize it.
+9660  iterator.next() cannot get enough data to a batch, initialize it.
+9695  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+9700 loss 1.00731
+****************************************************************************************************
+9730  iterator.next() cannot get enough data to a batch, initialize it.
+9765  iterator.next() cannot get enough data to a batch, initialize it.
+9800  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+9800 loss 1.54813
+****************************************************************************************************
+9835  iterator.next() cannot get enough data to a batch, initialize it.
+9870  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+9900 loss 0.347272
+****************************************************************************************************
+9905  iterator.next() cannot get enough data to a batch, initialize it.
+9940  iterator.next() cannot get enough data to a batch, initialize it.
+9975  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+10000 loss 0.578157
+****************************************************************************************************
+10010  iterator.next() cannot get enough data to a batch, initialize it.
+10045  iterator.next() cannot get enough data to a batch, initialize it.
+10080  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+10100 loss 0.619165
+****************************************************************************************************
+10115  iterator.next() cannot get enough data to a batch, initialize it.
+10150  iterator.next() cannot get enough data to a batch, initialize it.
+10185  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+10200 loss 2.59015
+****************************************************************************************************
+10220  iterator.next() cannot get enough data to a batch, initialize it.
+10255  iterator.next() cannot get enough data to a batch, initialize it.
+10290  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+10300 loss 1.37206
+****************************************************************************************************
+10325  iterator.next() cannot get enough data to a batch, initialize it.
+10360  iterator.next() cannot get enough data to a batch, initialize it.
+10395  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+10400 loss 0.9866
+****************************************************************************************************
+10430  iterator.next() cannot get enough data to a batch, initialize it.
+10465  iterator.next() cannot get enough data to a batch, initialize it.
+10500  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+10500 loss 1.37577
+****************************************************************************************************
+10535  iterator.next() cannot get enough data to a batch, initialize it.
+10570  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+10600 loss 0.673732
+****************************************************************************************************
+10605  iterator.next() cannot get enough data to a batch, initialize it.
+10640  iterator.next() cannot get enough data to a batch, initialize it.
+10675  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+10700 loss 0.503494
+****************************************************************************************************
+10710  iterator.next() cannot get enough data to a batch, initialize it.
+10745  iterator.next() cannot get enough data to a batch, initialize it.
+10780  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+10800 loss 1.5811
+****************************************************************************************************
+10815  iterator.next() cannot get enough data to a batch, initialize it.
+10850  iterator.next() cannot get enough data to a batch, initialize it.
+10885  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+10900 loss 1.92212
+****************************************************************************************************
+10920  iterator.next() cannot get enough data to a batch, initialize it.
+10955  iterator.next() cannot get enough data to a batch, initialize it.
+10990  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+11000 loss 1.02171
+****************************************************************************************************
+11025  iterator.next() cannot get enough data to a batch, initialize it.
+11060  iterator.next() cannot get enough data to a batch, initialize it.
+11095  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+11100 loss 0.589574
+****************************************************************************************************
+11130  iterator.next() cannot get enough data to a batch, initialize it.
+11165  iterator.next() cannot get enough data to a batch, initialize it.
+11200  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+11200 loss 1.2428
+****************************************************************************************************
+11235  iterator.next() cannot get enough data to a batch, initialize it.
+11270  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+11300 loss 0.315699
+****************************************************************************************************
+11305  iterator.next() cannot get enough data to a batch, initialize it.
+11340  iterator.next() cannot get enough data to a batch, initialize it.
+11375  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+11400 loss 0.543507
+****************************************************************************************************
+11410  iterator.next() cannot get enough data to a batch, initialize it.
+11445  iterator.next() cannot get enough data to a batch, initialize it.
+11480  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+11500 loss 0.991007
+****************************************************************************************************
+11515  iterator.next() cannot get enough data to a batch, initialize it.
+11550  iterator.next() cannot get enough data to a batch, initialize it.
+11585  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+11600 loss 2.03198
+****************************************************************************************************
+11620  iterator.next() cannot get enough data to a batch, initialize it.
+11655  iterator.next() cannot get enough data to a batch, initialize it.
+11690  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+11700 loss 1.00469
+****************************************************************************************************
+11725  iterator.next() cannot get enough data to a batch, initialize it.
+11760  iterator.next() cannot get enough data to a batch, initialize it.
+11795  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+11800 loss 1.21011
+****************************************************************************************************
+11830  iterator.next() cannot get enough data to a batch, initialize it.
+11865  iterator.next() cannot get enough data to a batch, initialize it.
+11900  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+11900 loss 1.38758
+****************************************************************************************************
+11935  iterator.next() cannot get enough data to a batch, initialize it.
+11970  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+12000 loss 0.267493
+****************************************************************************************************
+12005  iterator.next() cannot get enough data to a batch, initialize it.
+12040  iterator.next() cannot get enough data to a batch, initialize it.
+12075  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+12100 loss 0.438866
+****************************************************************************************************
+12110  iterator.next() cannot get enough data to a batch, initialize it.
+12145  iterator.next() cannot get enough data to a batch, initialize it.
+12180  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+12200 loss 0.615403
+****************************************************************************************************
+12215  iterator.next() cannot get enough data to a batch, initialize it.
+12250  iterator.next() cannot get enough data to a batch, initialize it.
+12285  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+12300 loss 1.77718
+****************************************************************************************************
+12320  iterator.next() cannot get enough data to a batch, initialize it.
+12355  iterator.next() cannot get enough data to a batch, initialize it.
+12390  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+12400 loss 1.46611
+****************************************************************************************************
+12425  iterator.next() cannot get enough data to a batch, initialize it.
+12460  iterator.next() cannot get enough data to a batch, initialize it.
+12495  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+12500 loss 0.678289
+****************************************************************************************************
+12530  iterator.next() cannot get enough data to a batch, initialize it.
+12565  iterator.next() cannot get enough data to a batch, initialize it.
+12600  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+12600 loss 0.783185
+****************************************************************************************************
+12635  iterator.next() cannot get enough data to a batch, initialize it.
+12670  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+12700 loss 0.411825
+****************************************************************************************************
+12705  iterator.next() cannot get enough data to a batch, initialize it.
+12740  iterator.next() cannot get enough data to a batch, initialize it.
+12775  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+12800 loss 0.349107
+****************************************************************************************************
+12810  iterator.next() cannot get enough data to a batch, initialize it.
+12845  iterator.next() cannot get enough data to a batch, initialize it.
+12880  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+12900 loss 0.799412
+****************************************************************************************************
+12915  iterator.next() cannot get enough data to a batch, initialize it.
+12950  iterator.next() cannot get enough data to a batch, initialize it.
+12985  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+13000 loss 0.470306
+****************************************************************************************************
+13020  iterator.next() cannot get enough data to a batch, initialize it.
+13055  iterator.next() cannot get enough data to a batch, initialize it.
+13090  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+13100 loss 0.819449
+****************************************************************************************************
+13125  iterator.next() cannot get enough data to a batch, initialize it.
+13160  iterator.next() cannot get enough data to a batch, initialize it.
+13195  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+13200 loss 0.603544
+****************************************************************************************************
+13230  iterator.next() cannot get enough data to a batch, initialize it.
+13265  iterator.next() cannot get enough data to a batch, initialize it.
+13300  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+13300 loss 0.967259
+****************************************************************************************************
+13335  iterator.next() cannot get enough data to a batch, initialize it.
+13370  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+13400 loss 0.39422
+****************************************************************************************************
+13405  iterator.next() cannot get enough data to a batch, initialize it.
+13440  iterator.next() cannot get enough data to a batch, initialize it.
+13475  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+13500 loss 0.348654
+****************************************************************************************************
+13510  iterator.next() cannot get enough data to a batch, initialize it.
+13545  iterator.next() cannot get enough data to a batch, initialize it.
+13580  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+13600 loss 0.60018
+****************************************************************************************************
+13615  iterator.next() cannot get enough data to a batch, initialize it.
+13650  iterator.next() cannot get enough data to a batch, initialize it.
+13685  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+13700 loss 1.48629
+****************************************************************************************************
+13720  iterator.next() cannot get enough data to a batch, initialize it.
+13755  iterator.next() cannot get enough data to a batch, initialize it.
+13790  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+13800 loss 0.74682
+****************************************************************************************************
+13825  iterator.next() cannot get enough data to a batch, initialize it.
+13860  iterator.next() cannot get enough data to a batch, initialize it.
+13895  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+13900 loss 0.615609
+****************************************************************************************************
+13930  iterator.next() cannot get enough data to a batch, initialize it.
+13965  iterator.next() cannot get enough data to a batch, initialize it.
+14000  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+14000 loss 1.00114
+****************************************************************************************************
+14035  iterator.next() cannot get enough data to a batch, initialize it.
+14070  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+14100 loss 0.295735
+****************************************************************************************************
+14105  iterator.next() cannot get enough data to a batch, initialize it.
+14140  iterator.next() cannot get enough data to a batch, initialize it.
+14175  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+14200 loss 0.446266
+****************************************************************************************************
+14210  iterator.next() cannot get enough data to a batch, initialize it.
+14245  iterator.next() cannot get enough data to a batch, initialize it.
+14280  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+14300 loss 1.00635
+****************************************************************************************************
+14315  iterator.next() cannot get enough data to a batch, initialize it.
+14350  iterator.next() cannot get enough data to a batch, initialize it.
+14385  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+14400 loss 1.41479
+****************************************************************************************************
+14420  iterator.next() cannot get enough data to a batch, initialize it.
+14455  iterator.next() cannot get enough data to a batch, initialize it.
+14490  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+14500 loss 1.09386
+****************************************************************************************************
+14525  iterator.next() cannot get enough data to a batch, initialize it.
+14560  iterator.next() cannot get enough data to a batch, initialize it.
+14595  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+14600 loss 0.535029
+****************************************************************************************************
+14630  iterator.next() cannot get enough data to a batch, initialize it.
+14665  iterator.next() cannot get enough data to a batch, initialize it.
+14700  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+14700 loss 0.903478
+****************************************************************************************************
+14735  iterator.next() cannot get enough data to a batch, initialize it.
+14770  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+14800 loss 0.318237
+****************************************************************************************************
+14805  iterator.next() cannot get enough data to a batch, initialize it.
+14840  iterator.next() cannot get enough data to a batch, initialize it.
+14875  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+14900 loss 1.31249
+****************************************************************************************************
+14910  iterator.next() cannot get enough data to a batch, initialize it.
+14945  iterator.next() cannot get enough data to a batch, initialize it.
+14980  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+15000 loss 0.309902
+****************************************************************************************************
+15015  iterator.next() cannot get enough data to a batch, initialize it.
+15050  iterator.next() cannot get enough data to a batch, initialize it.
+15085  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+15100 loss 1.09558
+****************************************************************************************************
+15120  iterator.next() cannot get enough data to a batch, initialize it.
+15155  iterator.next() cannot get enough data to a batch, initialize it.
+15190  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+15200 loss 0.789286
+****************************************************************************************************
+15225  iterator.next() cannot get enough data to a batch, initialize it.
+15260  iterator.next() cannot get enough data to a batch, initialize it.
+15295  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+15300 loss 0.429309
+****************************************************************************************************
+15330  iterator.next() cannot get enough data to a batch, initialize it.
+15365  iterator.next() cannot get enough data to a batch, initialize it.
+15400  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+15400 loss 0.809696
+****************************************************************************************************
+15435  iterator.next() cannot get enough data to a batch, initialize it.
+15470  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+15500 loss 0.148522
+****************************************************************************************************
+15505  iterator.next() cannot get enough data to a batch, initialize it.
+15540  iterator.next() cannot get enough data to a batch, initialize it.
+15575  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+15600 loss 1.67024
+****************************************************************************************************
+15610  iterator.next() cannot get enough data to a batch, initialize it.
+15645  iterator.next() cannot get enough data to a batch, initialize it.
+15680  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+15700 loss 0.691968
+****************************************************************************************************
+15715  iterator.next() cannot get enough data to a batch, initialize it.
+15750  iterator.next() cannot get enough data to a batch, initialize it.
+15785  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+15800 loss 1.39556
+****************************************************************************************************
+15820  iterator.next() cannot get enough data to a batch, initialize it.
+15855  iterator.next() cannot get enough data to a batch, initialize it.
+15890  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+15900 loss 0.915015
+****************************************************************************************************
+15925  iterator.next() cannot get enough data to a batch, initialize it.
+15960  iterator.next() cannot get enough data to a batch, initialize it.
+15995  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+16000 loss 0.381609
+****************************************************************************************************
+16030  iterator.next() cannot get enough data to a batch, initialize it.
+16065  iterator.next() cannot get enough data to a batch, initialize it.
+16100  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+16100 loss 0.865273
+****************************************************************************************************
+16135  iterator.next() cannot get enough data to a batch, initialize it.
+16170  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+16200 loss 0.192043
+****************************************************************************************************
+16205  iterator.next() cannot get enough data to a batch, initialize it.
+16240  iterator.next() cannot get enough data to a batch, initialize it.
+16275  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+16300 loss 0.436974
+****************************************************************************************************
+16310  iterator.next() cannot get enough data to a batch, initialize it.
+16345  iterator.next() cannot get enough data to a batch, initialize it.
+16380  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+16400 loss 0.394749
+****************************************************************************************************
+16415  iterator.next() cannot get enough data to a batch, initialize it.
+16450  iterator.next() cannot get enough data to a batch, initialize it.
+16485  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+16500 loss 0.999155
+****************************************************************************************************
+16520  iterator.next() cannot get enough data to a batch, initialize it.
+16555  iterator.next() cannot get enough data to a batch, initialize it.
+16590  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+16600 loss 0.482384
+****************************************************************************************************
+16625  iterator.next() cannot get enough data to a batch, initialize it.
+16660  iterator.next() cannot get enough data to a batch, initialize it.
+16695  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+16700 loss 0.366354
+****************************************************************************************************
+16730  iterator.next() cannot get enough data to a batch, initialize it.
+16765  iterator.next() cannot get enough data to a batch, initialize it.
+16800  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+16800 loss 0.535786
+****************************************************************************************************
+16835  iterator.next() cannot get enough data to a batch, initialize it.
+16870  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+16900 loss 0.238748
+****************************************************************************************************
+16905  iterator.next() cannot get enough data to a batch, initialize it.
+16940  iterator.next() cannot get enough data to a batch, initialize it.
+16975  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+17000 loss 0.387342
+****************************************************************************************************
+17010  iterator.next() cannot get enough data to a batch, initialize it.
+17045  iterator.next() cannot get enough data to a batch, initialize it.
+17080  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+17100 loss 0.849314
+****************************************************************************************************
+17115  iterator.next() cannot get enough data to a batch, initialize it.
+17150  iterator.next() cannot get enough data to a batch, initialize it.
+17185  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+17200 loss 1.21172
+****************************************************************************************************
+17220  iterator.next() cannot get enough data to a batch, initialize it.
+17255  iterator.next() cannot get enough data to a batch, initialize it.
+17290  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+17300 loss 0.559386
+****************************************************************************************************
+17325  iterator.next() cannot get enough data to a batch, initialize it.
+17360  iterator.next() cannot get enough data to a batch, initialize it.
+17395  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+17400 loss 0.301734
+****************************************************************************************************
+17430  iterator.next() cannot get enough data to a batch, initialize it.
+17465  iterator.next() cannot get enough data to a batch, initialize it.
+17500  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+17500 loss 0.583004
+****************************************************************************************************
+17535  iterator.next() cannot get enough data to a batch, initialize it.
+17570  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+17600 loss 0.296703
+****************************************************************************************************
+17605  iterator.next() cannot get enough data to a batch, initialize it.
+17640  iterator.next() cannot get enough data to a batch, initialize it.
+17675  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+17700 loss 0.327443
+****************************************************************************************************
+17710  iterator.next() cannot get enough data to a batch, initialize it.
+17745  iterator.next() cannot get enough data to a batch, initialize it.
+17780  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+17800 loss 0.670692
+****************************************************************************************************
+17815  iterator.next() cannot get enough data to a batch, initialize it.
+17850  iterator.next() cannot get enough data to a batch, initialize it.
+17885  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+17900 loss 0.751717
+****************************************************************************************************
+17920  iterator.next() cannot get enough data to a batch, initialize it.
+17955  iterator.next() cannot get enough data to a batch, initialize it.
+17990  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+18000 loss 0.51609
+****************************************************************************************************
+18025  iterator.next() cannot get enough data to a batch, initialize it.
+18060  iterator.next() cannot get enough data to a batch, initialize it.
+18095  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+18100 loss 0.686219
+****************************************************************************************************
+18130  iterator.next() cannot get enough data to a batch, initialize it.
+18165  iterator.next() cannot get enough data to a batch, initialize it.
+18200  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+18200 loss 0.765748
+****************************************************************************************************
+18235  iterator.next() cannot get enough data to a batch, initialize it.
+18270  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+18300 loss 0.160821
+****************************************************************************************************
+18305  iterator.next() cannot get enough data to a batch, initialize it.
+18340  iterator.next() cannot get enough data to a batch, initialize it.
+18375  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+18400 loss 0.393819
+****************************************************************************************************
+18410  iterator.next() cannot get enough data to a batch, initialize it.
+18445  iterator.next() cannot get enough data to a batch, initialize it.
+18480  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+18500 loss 0.555191
+****************************************************************************************************
+18515  iterator.next() cannot get enough data to a batch, initialize it.
+18550  iterator.next() cannot get enough data to a batch, initialize it.
+18585  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+18600 loss 0.894092
+****************************************************************************************************
+18620  iterator.next() cannot get enough data to a batch, initialize it.
+18655  iterator.next() cannot get enough data to a batch, initialize it.
+18690  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+18700 loss 0.622134
+****************************************************************************************************
+18725  iterator.next() cannot get enough data to a batch, initialize it.
+18760  iterator.next() cannot get enough data to a batch, initialize it.
+18795  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+18800 loss 0.283742
+****************************************************************************************************
+18830  iterator.next() cannot get enough data to a batch, initialize it.
+18865  iterator.next() cannot get enough data to a batch, initialize it.
+18900  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+18900 loss 0.549213
+****************************************************************************************************
+18935  iterator.next() cannot get enough data to a batch, initialize it.
+18970  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+19000 loss 0.279858
+****************************************************************************************************
+19005  iterator.next() cannot get enough data to a batch, initialize it.
+19040  iterator.next() cannot get enough data to a batch, initialize it.
+19075  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+19100 loss 0.962001
+****************************************************************************************************
+19110  iterator.next() cannot get enough data to a batch, initialize it.
+19145  iterator.next() cannot get enough data to a batch, initialize it.
+19180  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+19200 loss 0.220605
+****************************************************************************************************
+19215  iterator.next() cannot get enough data to a batch, initialize it.
+19250  iterator.next() cannot get enough data to a batch, initialize it.
+19285  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+19300 loss 0.212743
+****************************************************************************************************
+19320  iterator.next() cannot get enough data to a batch, initialize it.
+19355  iterator.next() cannot get enough data to a batch, initialize it.
+19390  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+19400 loss 0.583362
+****************************************************************************************************
+19425  iterator.next() cannot get enough data to a batch, initialize it.
+19460  iterator.next() cannot get enough data to a batch, initialize it.
+19495  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+19500 loss 0.372209
+****************************************************************************************************
+19530  iterator.next() cannot get enough data to a batch, initialize it.
+19565  iterator.next() cannot get enough data to a batch, initialize it.
+19600  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+19600 loss 0.45632
+****************************************************************************************************
+19635  iterator.next() cannot get enough data to a batch, initialize it.
+19670  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+19700 loss 0.206695
+****************************************************************************************************
+19705  iterator.next() cannot get enough data to a batch, initialize it.
+19740  iterator.next() cannot get enough data to a batch, initialize it.
+19775  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+19800 loss 0.268083
+****************************************************************************************************
+19810  iterator.next() cannot get enough data to a batch, initialize it.
+19845  iterator.next() cannot get enough data to a batch, initialize it.
+19880  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+19900 loss 0.454548
+****************************************************************************************************
+19915  iterator.next() cannot get enough data to a batch, initialize it.
+19950  iterator.next() cannot get enough data to a batch, initialize it.
+19985  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+20000 loss 0.301979
+****************************************************************************************************
+20020  iterator.next() cannot get enough data to a batch, initialize it.
+20055  iterator.next() cannot get enough data to a batch, initialize it.
+20090  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+20100 loss 0.521468
+****************************************************************************************************
+20125  iterator.next() cannot get enough data to a batch, initialize it.
+20160  iterator.next() cannot get enough data to a batch, initialize it.
+20195  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+20200 loss 0.872907
+****************************************************************************************************
+20230  iterator.next() cannot get enough data to a batch, initialize it.
+20265  iterator.next() cannot get enough data to a batch, initialize it.
+20300  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+20300 loss 0.654035
+****************************************************************************************************
+20335  iterator.next() cannot get enough data to a batch, initialize it.
+20370  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+20400 loss 0.250282
+****************************************************************************************************
+20405  iterator.next() cannot get enough data to a batch, initialize it.
+20440  iterator.next() cannot get enough data to a batch, initialize it.
+20475  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+20500 loss 0.351464
+****************************************************************************************************
+20510  iterator.next() cannot get enough data to a batch, initialize it.
+20545  iterator.next() cannot get enough data to a batch, initialize it.
+20580  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+20600 loss 0.480868
+****************************************************************************************************
+20615  iterator.next() cannot get enough data to a batch, initialize it.
+20650  iterator.next() cannot get enough data to a batch, initialize it.
+20685  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+20700 loss 0.751677
+****************************************************************************************************
+20720  iterator.next() cannot get enough data to a batch, initialize it.
+20755  iterator.next() cannot get enough data to a batch, initialize it.
+20790  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+20800 loss 0.51424
+****************************************************************************************************
+20825  iterator.next() cannot get enough data to a batch, initialize it.
+20860  iterator.next() cannot get enough data to a batch, initialize it.
+20895  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+20900 loss 0.293423
+****************************************************************************************************
+20930  iterator.next() cannot get enough data to a batch, initialize it.
+20965  iterator.next() cannot get enough data to a batch, initialize it.
+21000  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+21000 loss 0.450938
+****************************************************************************************************
+21035  iterator.next() cannot get enough data to a batch, initialize it.
+21070  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+21100 loss 0.251825
+****************************************************************************************************
+21105  iterator.next() cannot get enough data to a batch, initialize it.
+21140  iterator.next() cannot get enough data to a batch, initialize it.
+21175  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+21200 loss 0.282017
+****************************************************************************************************
+21210  iterator.next() cannot get enough data to a batch, initialize it.
+21245  iterator.next() cannot get enough data to a batch, initialize it.
+21280  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+21300 loss 0.709563
+****************************************************************************************************
+21315  iterator.next() cannot get enough data to a batch, initialize it.
+21350  iterator.next() cannot get enough data to a batch, initialize it.
+21385  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+21400 loss 0.274701
+****************************************************************************************************
+21420  iterator.next() cannot get enough data to a batch, initialize it.
+21455  iterator.next() cannot get enough data to a batch, initialize it.
+21490  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+21500 loss 0.533693
+****************************************************************************************************
+21525  iterator.next() cannot get enough data to a batch, initialize it.
+21560  iterator.next() cannot get enough data to a batch, initialize it.
+21595  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+21600 loss 0.369026
+****************************************************************************************************
+21630  iterator.next() cannot get enough data to a batch, initialize it.
+21665  iterator.next() cannot get enough data to a batch, initialize it.
+21700  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+21700 loss 0.588879
+****************************************************************************************************
+21735  iterator.next() cannot get enough data to a batch, initialize it.
+21770  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+21800 loss 0.190238
+****************************************************************************************************
+21805  iterator.next() cannot get enough data to a batch, initialize it.
+21840  iterator.next() cannot get enough data to a batch, initialize it.
+21875  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+21900 loss 0.16124
+****************************************************************************************************
+21910  iterator.next() cannot get enough data to a batch, initialize it.
+21945  iterator.next() cannot get enough data to a batch, initialize it.
+21980  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+22000 loss 0.427827
+****************************************************************************************************
+22015  iterator.next() cannot get enough data to a batch, initialize it.
+22050  iterator.next() cannot get enough data to a batch, initialize it.
+22085  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+22100 loss 0.117978
+****************************************************************************************************
+22120  iterator.next() cannot get enough data to a batch, initialize it.
+22155  iterator.next() cannot get enough data to a batch, initialize it.
+22190  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+22200 loss 0.842882
+****************************************************************************************************
+22225  iterator.next() cannot get enough data to a batch, initialize it.
+22260  iterator.next() cannot get enough data to a batch, initialize it.
+22295  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+22300 loss 0.267506
+****************************************************************************************************
+22330  iterator.next() cannot get enough data to a batch, initialize it.
+22365  iterator.next() cannot get enough data to a batch, initialize it.
+22400  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+22400 loss 0.443719
+****************************************************************************************************
+22435  iterator.next() cannot get enough data to a batch, initialize it.
+22470  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+22500 loss 0.141384
+****************************************************************************************************
+22505  iterator.next() cannot get enough data to a batch, initialize it.
+22540  iterator.next() cannot get enough data to a batch, initialize it.
+22575  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+22600 loss 0.339674
+****************************************************************************************************
+22610  iterator.next() cannot get enough data to a batch, initialize it.
+22645  iterator.next() cannot get enough data to a batch, initialize it.
+22680  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+22700 loss 0.31187
+****************************************************************************************************
+22715  iterator.next() cannot get enough data to a batch, initialize it.
+22750  iterator.next() cannot get enough data to a batch, initialize it.
+22785  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+22800 loss 0.660893
+****************************************************************************************************
+22820  iterator.next() cannot get enough data to a batch, initialize it.
+22855  iterator.next() cannot get enough data to a batch, initialize it.
+22890  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+22900 loss 0.422977
+****************************************************************************************************
+22925  iterator.next() cannot get enough data to a batch, initialize it.
+22960  iterator.next() cannot get enough data to a batch, initialize it.
+22995  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+23000 loss 0.278944
+****************************************************************************************************
+23030  iterator.next() cannot get enough data to a batch, initialize it.
+23065  iterator.next() cannot get enough data to a batch, initialize it.
+23100  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+23100 loss 0.48622
+****************************************************************************************************
+23135  iterator.next() cannot get enough data to a batch, initialize it.
+23170  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+23200 loss 0.117967
+****************************************************************************************************
+23205  iterator.next() cannot get enough data to a batch, initialize it.
+23240  iterator.next() cannot get enough data to a batch, initialize it.
+23275  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+23300 loss 0.485692
+****************************************************************************************************
+23310  iterator.next() cannot get enough data to a batch, initialize it.
+23345  iterator.next() cannot get enough data to a batch, initialize it.
+23380  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+23400 loss 0.419963
+****************************************************************************************************
+23415  iterator.next() cannot get enough data to a batch, initialize it.
+23450  iterator.next() cannot get enough data to a batch, initialize it.
+23485  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+23500 loss 0.525206
+****************************************************************************************************
+23520  iterator.next() cannot get enough data to a batch, initialize it.
+23555  iterator.next() cannot get enough data to a batch, initialize it.
+23590  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+23600 loss 0.555588
+****************************************************************************************************
+23625  iterator.next() cannot get enough data to a batch, initialize it.
+23660  iterator.next() cannot get enough data to a batch, initialize it.
+23695  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+23700 loss 0.290019
+****************************************************************************************************
+23730  iterator.next() cannot get enough data to a batch, initialize it.
+23765  iterator.next() cannot get enough data to a batch, initialize it.
+23800  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+23800 loss 0.548643
+****************************************************************************************************
+23835  iterator.next() cannot get enough data to a batch, initialize it.
+23870  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+23900 loss 0.158712
+****************************************************************************************************
+23905  iterator.next() cannot get enough data to a batch, initialize it.
+23940  iterator.next() cannot get enough data to a batch, initialize it.
+23975  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+24000 loss 0.905547
+****************************************************************************************************
+24010  iterator.next() cannot get enough data to a batch, initialize it.
+24045  iterator.next() cannot get enough data to a batch, initialize it.
+24080  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+24100 loss 0.244669
+****************************************************************************************************
+24115  iterator.next() cannot get enough data to a batch, initialize it.
+24150  iterator.next() cannot get enough data to a batch, initialize it.
+24185  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+24200 loss 0.571801
+****************************************************************************************************
+24220  iterator.next() cannot get enough data to a batch, initialize it.
+24255  iterator.next() cannot get enough data to a batch, initialize it.
+24290  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+24300 loss 0.22151
+****************************************************************************************************
+24325  iterator.next() cannot get enough data to a batch, initialize it.
+24360  iterator.next() cannot get enough data to a batch, initialize it.
+24395  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+24400 loss 0.414396
+****************************************************************************************************
+24430  iterator.next() cannot get enough data to a batch, initialize it.
+24465  iterator.next() cannot get enough data to a batch, initialize it.
+24500  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+24500 loss 0.752494
+****************************************************************************************************
+24535  iterator.next() cannot get enough data to a batch, initialize it.
+24570  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+24600 loss 0.174824
+****************************************************************************************************
+24605  iterator.next() cannot get enough data to a batch, initialize it.
+24640  iterator.next() cannot get enough data to a batch, initialize it.
+24675  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+24700 loss 0.997807
+****************************************************************************************************
+24710  iterator.next() cannot get enough data to a batch, initialize it.
+24745  iterator.next() cannot get enough data to a batch, initialize it.
+24780  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+24800 loss 0.373931
+****************************************************************************************************
+24815  iterator.next() cannot get enough data to a batch, initialize it.
+24850  iterator.next() cannot get enough data to a batch, initialize it.
+24885  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+24900 loss 0.607173
+****************************************************************************************************
+24920  iterator.next() cannot get enough data to a batch, initialize it.
+24955  iterator.next() cannot get enough data to a batch, initialize it.
+24990  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+25000 loss 0.306266
+****************************************************************************************************
+25025  iterator.next() cannot get enough data to a batch, initialize it.
+25060  iterator.next() cannot get enough data to a batch, initialize it.
+25095  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+25100 loss 0.235198
+****************************************************************************************************
+25130  iterator.next() cannot get enough data to a batch, initialize it.
+25165  iterator.next() cannot get enough data to a batch, initialize it.
+25200  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+25200 loss 0.451021
+****************************************************************************************************
+25235  iterator.next() cannot get enough data to a batch, initialize it.
+25270  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+25300 loss 0.299055
+****************************************************************************************************
+25305  iterator.next() cannot get enough data to a batch, initialize it.
+25340  iterator.next() cannot get enough data to a batch, initialize it.
+25375  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+25400 loss 0.203256
+****************************************************************************************************
+25410  iterator.next() cannot get enough data to a batch, initialize it.
+25445  iterator.next() cannot get enough data to a batch, initialize it.
+25480  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+25500 loss 0.397795
+****************************************************************************************************
+25515  iterator.next() cannot get enough data to a batch, initialize it.
+25550  iterator.next() cannot get enough data to a batch, initialize it.
+25585  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+25600 loss 0.66541
+****************************************************************************************************
+25620  iterator.next() cannot get enough data to a batch, initialize it.
+25655  iterator.next() cannot get enough data to a batch, initialize it.
+25690  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+25700 loss 0.474258
+****************************************************************************************************
+25725  iterator.next() cannot get enough data to a batch, initialize it.
+25760  iterator.next() cannot get enough data to a batch, initialize it.
+25795  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+25800 loss 0.311106
+****************************************************************************************************
+25830  iterator.next() cannot get enough data to a batch, initialize it.
+25865  iterator.next() cannot get enough data to a batch, initialize it.
+25900  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+25900 loss 0.334206
+****************************************************************************************************
+25935  iterator.next() cannot get enough data to a batch, initialize it.
+25970  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+26000 loss 0.107657
+****************************************************************************************************
+26005  iterator.next() cannot get enough data to a batch, initialize it.
+26040  iterator.next() cannot get enough data to a batch, initialize it.
+26075  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+26100 loss 0.154934
+****************************************************************************************************
+26110  iterator.next() cannot get enough data to a batch, initialize it.
+26145  iterator.next() cannot get enough data to a batch, initialize it.
+26180  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+26200 loss 0.372346
+****************************************************************************************************
+26215  iterator.next() cannot get enough data to a batch, initialize it.
+26250  iterator.next() cannot get enough data to a batch, initialize it.
+26285  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+26300 loss 0.672902
+****************************************************************************************************
+26320  iterator.next() cannot get enough data to a batch, initialize it.
+26355  iterator.next() cannot get enough data to a batch, initialize it.
+26390  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+26400 loss 0.398317
+****************************************************************************************************
+26425  iterator.next() cannot get enough data to a batch, initialize it.
+26460  iterator.next() cannot get enough data to a batch, initialize it.
+26495  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+26500 loss 0.257451
+****************************************************************************************************
+26530  iterator.next() cannot get enough data to a batch, initialize it.
+26565  iterator.next() cannot get enough data to a batch, initialize it.
+26600  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+26600 loss 0.425793
+****************************************************************************************************
+26635  iterator.next() cannot get enough data to a batch, initialize it.
+26670  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+26700 loss 0.245413
+****************************************************************************************************
+26705  iterator.next() cannot get enough data to a batch, initialize it.
+26740  iterator.next() cannot get enough data to a batch, initialize it.
+26775  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+26800 loss 0.821388
+****************************************************************************************************
+26810  iterator.next() cannot get enough data to a batch, initialize it.
+26845  iterator.next() cannot get enough data to a batch, initialize it.
+26880  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+26900 loss 0.166756
+****************************************************************************************************
+26915  iterator.next() cannot get enough data to a batch, initialize it.
+26950  iterator.next() cannot get enough data to a batch, initialize it.
+26985  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+27000 loss 0.555916
+****************************************************************************************************
+27020  iterator.next() cannot get enough data to a batch, initialize it.
+27055  iterator.next() cannot get enough data to a batch, initialize it.
+27090  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+27100 loss 0.251296
+****************************************************************************************************
+27125  iterator.next() cannot get enough data to a batch, initialize it.
+27160  iterator.next() cannot get enough data to a batch, initialize it.
+27195  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+27200 loss 0.313109
+****************************************************************************************************
+27230  iterator.next() cannot get enough data to a batch, initialize it.
+27265  iterator.next() cannot get enough data to a batch, initialize it.
+27300  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+27300 loss 0.279489
+****************************************************************************************************
+27335  iterator.next() cannot get enough data to a batch, initialize it.
+27370  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+27400 loss 0.175807
+****************************************************************************************************
+27405  iterator.next() cannot get enough data to a batch, initialize it.
+27440  iterator.next() cannot get enough data to a batch, initialize it.
+27475  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+27500 loss 0.139081
+****************************************************************************************************
+27510  iterator.next() cannot get enough data to a batch, initialize it.
+27545  iterator.next() cannot get enough data to a batch, initialize it.
+27580  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+27600 loss 0.337567
+****************************************************************************************************
+27615  iterator.next() cannot get enough data to a batch, initialize it.
+27650  iterator.next() cannot get enough data to a batch, initialize it.
+27685  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+27700 loss 0.276438
+****************************************************************************************************
+27720  iterator.next() cannot get enough data to a batch, initialize it.
+27755  iterator.next() cannot get enough data to a batch, initialize it.
+27790  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+27800 loss 0.258739
+****************************************************************************************************
+27825  iterator.next() cannot get enough data to a batch, initialize it.
+27860  iterator.next() cannot get enough data to a batch, initialize it.
+27895  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+27900 loss 0.250818
+****************************************************************************************************
+27930  iterator.next() cannot get enough data to a batch, initialize it.
+27965  iterator.next() cannot get enough data to a batch, initialize it.
+28000  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+28000 loss 0.239159
+****************************************************************************************************
+28035  iterator.next() cannot get enough data to a batch, initialize it.
+28070  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+28100 loss 0.148115
+****************************************************************************************************
+28105  iterator.next() cannot get enough data to a batch, initialize it.
+28140  iterator.next() cannot get enough data to a batch, initialize it.
+28175  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+28200 loss 1.07173
+****************************************************************************************************
+28210  iterator.next() cannot get enough data to a batch, initialize it.
+28245  iterator.next() cannot get enough data to a batch, initialize it.
+28280  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+28300 loss 0.321388
+****************************************************************************************************
+28315  iterator.next() cannot get enough data to a batch, initialize it.
+28350  iterator.next() cannot get enough data to a batch, initialize it.
+28385  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+28400 loss 0.206219
+****************************************************************************************************
+28420  iterator.next() cannot get enough data to a batch, initialize it.
+28455  iterator.next() cannot get enough data to a batch, initialize it.
+28490  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+28500 loss 0.349848
+****************************************************************************************************
+28525  iterator.next() cannot get enough data to a batch, initialize it.
+28560  iterator.next() cannot get enough data to a batch, initialize it.
+28595  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+28600 loss 0.224845
+****************************************************************************************************
+28630  iterator.next() cannot get enough data to a batch, initialize it.
+28665  iterator.next() cannot get enough data to a batch, initialize it.
+28700  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+28700 loss 0.280477
+****************************************************************************************************
+28735  iterator.next() cannot get enough data to a batch, initialize it.
+28770  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+28800 loss 0.110228
+****************************************************************************************************
+28805  iterator.next() cannot get enough data to a batch, initialize it.
+28840  iterator.next() cannot get enough data to a batch, initialize it.
+28875  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+28900 loss 0.160938
+****************************************************************************************************
+28910  iterator.next() cannot get enough data to a batch, initialize it.
+28945  iterator.next() cannot get enough data to a batch, initialize it.
+28980  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+29000 loss 0.185141
+****************************************************************************************************
+29015  iterator.next() cannot get enough data to a batch, initialize it.
+29050  iterator.next() cannot get enough data to a batch, initialize it.
+29085  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+29100 loss 0.483548
+****************************************************************************************************
+29120  iterator.next() cannot get enough data to a batch, initialize it.
+29155  iterator.next() cannot get enough data to a batch, initialize it.
+29190  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+29200 loss 0.354716
+****************************************************************************************************
+29225  iterator.next() cannot get enough data to a batch, initialize it.
+29260  iterator.next() cannot get enough data to a batch, initialize it.
+29295  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+29300 loss 0.240979
+****************************************************************************************************
+29330  iterator.next() cannot get enough data to a batch, initialize it.
+29365  iterator.next() cannot get enough data to a batch, initialize it.
+29400  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+29400 loss 0.366226
+****************************************************************************************************
+29435  iterator.next() cannot get enough data to a batch, initialize it.
+29470  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+29500 loss 0.168673
+****************************************************************************************************
+29505  iterator.next() cannot get enough data to a batch, initialize it.
+29540  iterator.next() cannot get enough data to a batch, initialize it.
+29575  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+29600 loss 0.178165
+****************************************************************************************************
+29610  iterator.next() cannot get enough data to a batch, initialize it.
+29645  iterator.next() cannot get enough data to a batch, initialize it.
+29680  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+29700 loss 0.128751
+****************************************************************************************************
+29715  iterator.next() cannot get enough data to a batch, initialize it.
+29750  iterator.next() cannot get enough data to a batch, initialize it.
+29785  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+29800 loss 0.389806
+****************************************************************************************************
+29820  iterator.next() cannot get enough data to a batch, initialize it.
+29855  iterator.next() cannot get enough data to a batch, initialize it.
+29890  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+29900 loss 0.341959
+****************************************************************************************************
+29925  iterator.next() cannot get enough data to a batch, initialize it.
+29960  iterator.next() cannot get enough data to a batch, initialize it.
+29995  iterator.next() cannot get enough data to a batch, initialize it.
+****************************************************************************************************
+30000 loss 0.205465
+****************************************************************************************************
+training finished!
+
+Process finished with exit code 0
